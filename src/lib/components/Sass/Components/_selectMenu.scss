@@ -1,0 +1,30 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  label {
+    margin-bottom: 10px;
+  }
+}
+
+.select-menu {
+  width: 180px;
+  height: 30px;
+  border: 1px solid $couleur-tertiaire;
+  font-size: 18px;
+  color: $couleur-primaire;
+  background-color: $couleur-secondaire;
+  border-radius: 5px;
+  box-shadow: 4px 4px $couleur-tertiaire;
+  font-family: 'Balsamiq Sans', cursive;
+  &:hover {
+    cursor: pointer;
+    border: 2px solid $couleur-tertiaire;
+    filter: brightness(110%);
+  }
+  &:focus-visible {
+    outline-color: $couleur-tertiaire;
+  }
+}
