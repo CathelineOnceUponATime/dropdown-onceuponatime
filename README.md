@@ -2,10 +2,6 @@
 
 > Projet 14 - Composant : Dropdown
 
-## Author 
-
-- Catheline GRAPPIN
-
 ## Technologies
 
 - [![Made-with-Javascript](https://img.shields.io/badge/Made%20with-Javascript-green)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
